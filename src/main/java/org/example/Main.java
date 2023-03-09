@@ -12,6 +12,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        /*测试12*/
         String dbType = JdbcConstants.POSTGRESQL; // JdbcConstants.MYSQL或者JdbcConstants.POSTGRESQL
         String sql = "insert into new_table(id_new,name_new)  " +
                 " select id,name from mytable a where a.id = 3; " +
